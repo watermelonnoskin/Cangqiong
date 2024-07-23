@@ -26,4 +26,6 @@ public interface EmployeeMapper {
 
     //动态sql,写在映射文件里
     Page<Employee> pageQuery(EmployeePageQueryDTO employeePageQueryDTO);
+
+    void update(Employee employee);
 }
